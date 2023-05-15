@@ -11,4 +11,10 @@ void main() {
   /// Give profession a value of “basketball player”.
   profession = 'basketball player';
   print(profession);
+
+  /// Write the following line and then hover your cursor over the variable name.
+  /// What type does Dart infer iLove to be?
+  const iLove = 'Dart';
+  print(iLove.runtimeType);
+  // 'iLove' is of type String (non-nullable).
 }
