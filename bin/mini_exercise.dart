@@ -7,4 +7,8 @@ void main() {
   /// Then you’ll have profession null. :]
   String? profession;
   print(profession);
+
+  /// Give profession a value of “basketball player”.
+  profession = 'basketball player';
+  print(profession);
 }
